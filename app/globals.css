@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-rubik bg-[#f4f7fd] text-[#000] leading-[1.5];
+}
+
+li::marker {
+  @apply hidden list-none;
+}
