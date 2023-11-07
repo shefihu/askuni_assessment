@@ -1,35 +1,53 @@
-# Next.js + TailwindCSS + Redux Toolkit Assessment
+# Askuni Search Page Task
 
-This is a Next.js application which incorporates TailwindCSS for styling and the Redux Toolkit for state management. It serves as an assessment project to demonstrate the capabilities of this stack.
+The **Askuni Search Page** is a searching tool that allows users to search and filter through universities.
 
-## Prerequisites
+## Features
 
-Before you begin, ensure you have met the following requirements:
+- **Multi Filter:** Filter with multiple values.
 
-- Node.js (LTS version)
-- npm or Yarn
+- **Search:** Quickly find specific universities with a search feature.
+
+## Live URL
+
+You can try out the Askuni Search Tash by visiting the live site:
+
+[Live Site](https://askuni-fe-test.vercel.app/)
 
 ## Installation
 
-To install the necessary dependencies, follow these steps:
+To install and run the Askuni Search Task on your local machine, follow these steps:
 
-```bash
-git clone https://github.com/your-username/your-project-name.git
-cd your-project-name
-npm install
-```
+1. Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
-To run the application in development mode, execute:
+2. Clone this repository to your local machine:
 
-npm run dev
+   ```bash
+   git clone https://github.com/shefihu/askuni_assessment.git
 
-Open http://localhost:3000 with your browser to see the result.
+   ```
 
-## Structure
+3. Navigate to the project directory:
 
-pages/: Contains all page-related components.
-components/: Reusable UI components.
-store/: Redux Toolkit slices and store configuration.
-public/: Static assets like images and icons.
-styles/: Custom CSS and Tailwind configuration.
-# askuni_assessment
+   ```bash
+   cd askuni_assessment
+   ```
+
+4. Install project dependencies using Yarn or npm:
+
+   ```bash
+   yarn install  or   npm install
+   ```
+
+## Usage
+
+Once you've installed the required dependencies, you can start the development server:
+
+     yarn dev or npm run dev
+
+### This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
